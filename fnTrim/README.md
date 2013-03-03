@@ -1,4 +1,4 @@
-Function: <strong>strTrim</strong>\n
-Arguments:\n
-\t1. str: string\n
-\t2. char: charecter for trim!
+Function:<p><h3>strTrim</h3></p>
+Arguments:<br />
+	1. <strong>str</strong>: string<br />
+	2. <strong>char</strong>: charecter for trim!
