@@ -1,1 +1,0 @@
-function strTrim(str,char){lTrim=(str.length);cnt=0;for(var i=lTrim-1;i>=0;i--){if(str[i]!=char){cnt=i;break}}str=str.substring(0,cnt+1);cnt=0;for(var i=0;i<str.length;i++){if(str[i]!=char){cnt=i;break}}str=str.substring(cnt+1,str.length);return str}
