@@ -1,0 +1,1 @@
+function getLength(e){var t=0;var n=Object.prototype.toString.call(e);n=n.substr(n.indexOf(" ")+1,3).toLowerCase().trim();switch(n){case"str":t=e.length;break;case"arr":t=e.length;break;case"num":t=e;break;case"boo":t=e==true?1:0;break;case"obj":for(key in e){if(key)t++}break}return t}
